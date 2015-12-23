@@ -1,0 +1,5 @@
+c:\users\smol\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+c:\users\smol\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\BigIntegerClassLibrary.dll
+c:\users\smol\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\BigIntegerClassLibrary.pdb
+c:\users\smol\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\BigIntegerClassLibrary.dll
+c:\users\smol\documents\visual studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\BigIntegerClassLibrary.pdb

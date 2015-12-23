@@ -1,0 +1,79 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly BigIntegerClassLibrary, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class BigIntegerClassLibrary.BigInteger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(UInt64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(BigIntegerClassLibrary.BigInteger): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Byte[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(UInt32[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    UInt32[] data : Public
+    Int32 dataLength : Public
+    Int32[] primesBelow2000 : Public, Static, InitOnly
+  Methods:
+    op_Implicit(Int64): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(UInt64): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(Int32): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(UInt32): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Increment(BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Decrement(BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_LeftShift(BigInteger, Int32): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_RightShift(BigInteger, Int32): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_OnesComplement(BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    op_GreaterThan(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_LessThan(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_GreaterThanOrEqual(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_LessThanOrEqual(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Modulus(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_BitwiseAnd(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_BitwiseOr(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_ExclusiveOr(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig, SpecialName
+    max(BigInteger): PrivateScope, Public, HideBySig
+    min(BigInteger): PrivateScope, Public, HideBySig
+    abs(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(Int32): PrivateScope, Public, HideBySig
+    ToHexString(): PrivateScope, Public, HideBySig
+    modPow(BigInteger, BigInteger): PrivateScope, Public, HideBySig
+    gcd(BigInteger): PrivateScope, Public, HideBySig
+    genRandomBits(Int32, Random): PrivateScope, Public, HideBySig
+    bitCount(): PrivateScope, Public, HideBySig
+    FermatLittleTest(Int32): PrivateScope, Public, HideBySig
+    RabinMillerTest(Int32): PrivateScope, Public, HideBySig
+    SolovayStrassenTest(Int32): PrivateScope, Public, HideBySig
+    LucasStrongTest(): PrivateScope, Public, HideBySig
+    isProbablePrime(Int32): PrivateScope, Public, HideBySig
+    isProbablePrime(): PrivateScope, Public, HideBySig
+    IntValue(): PrivateScope, Public, HideBySig
+    LongValue(): PrivateScope, Public, HideBySig
+    Jacobi(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig
+    genPseudoPrime(Int32, Int32, Random): PrivateScope, Public, Static, HideBySig
+    genCoPrime(Int32, Random): PrivateScope, Public, HideBySig
+    modInverse(BigInteger): PrivateScope, Public, HideBySig
+    getBytes(): PrivateScope, Public, HideBySig
+    setBit(UInt32): PrivateScope, Public, HideBySig
+    unsetBit(UInt32): PrivateScope, Public, HideBySig
+    sqrt(): PrivateScope, Public, HideBySig
+    LucasSequence(BigInteger, BigInteger, BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig
+    MulDivTest(Int32): PrivateScope, Public, Static, HideBySig
+    RSATest(Int32): PrivateScope, Public, Static, HideBySig
+    RSATest2(Int32): PrivateScope, Public, Static, HideBySig
+    NOD(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig
+    Evklid(BigInteger, BigInteger, BigInteger&, BigInteger&, BigInteger&): PrivateScope, Public, Static, HideBySig
+    Inverse(BigInteger, BigInteger): PrivateScope, Public, Static, HideBySig
+    SqrtTest(Int32): PrivateScope, Public, Static, HideBySig
