@@ -1,8 +1,0 @@
-D:\My projects\C++\Электронная_подпись\Программа-ЭЦП RSA\RSA_Sign\obj\Debug\RSA_Sign.exe
-D:\My projects\C++\Электронная_подпись\Программа-ЭЦП RSA\RSA_Sign\bin\Debug\RSA_Sign.exe
-D:\My projects\C++\Электронная_подпись\Программа-ЭЦП RSA\RSA_Sign\bin\Debug\RSA_Sign.pdb
-D:\My projects\C++\Электронная_подпись\Программа-ЭЦП RSA\RSA_Sign\obj\Debug\RSA_Sign.csprojResolveAssemblyReference.cache
-D:\My projects\C++\Электронная_подпись\Программа-ЭЦП RSA\RSA_Sign\obj\Debug\RSA_Sign.Form1.resources
-D:\My projects\C++\Электронная_подпись\Программа-ЭЦП RSA\RSA_Sign\obj\Debug\RSA_Sign.Properties.Resources.resources
-D:\My projects\C++\Электронная_подпись\Программа-ЭЦП RSA\RSA_Sign\obj\Debug\RSA_Sign.csproj.GenerateResource.Cache
-D:\My projects\C++\Электронная_подпись\Программа-ЭЦП RSA\RSA_Sign\obj\Debug\RSA_Sign.pdb

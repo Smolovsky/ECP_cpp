@@ -88,7 +88,6 @@ public:
 		array<unsigned char>^ hash = MD5hash(Text);
 		BigInteger^ BI_Text = gcnew BigInteger(hash);
 		return BI_Text->modPow(d, n)->getBytes();
-		//BigInteger result = BigInteger::ModPow(BigInteger(BI_Text), BigInteger(d), BigInteger(n));
 		
 		return nullptr;
 	}

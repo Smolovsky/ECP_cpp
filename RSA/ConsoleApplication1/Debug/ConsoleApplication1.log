@@ -1,13 +1,17 @@
-﻿Build started 23.12.2015 16:06:10.
+﻿Build started 02.01.2016 7:04:23.
      1>Project "D:\My projects\C++\Электронная_подпись\RSA\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"D:\My projects\C++\Электронная_подпись\RSA\ConsoleApplication1\BigIntegerClassLibrary.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /showIncludes /analyze- /errorReport:prompt /clr:nostdlib main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"D:\My projects\C++\Электронная_подпись\RSA\ConsoleApplication1\BigIntegerClassLibrary.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /showIncludes /analyze- /errorReport:prompt /clr:nostdlib main.cpp ConnectHERO.cpp
          main.cpp
          Note: including file: d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\MyForm.h
          Note: including file:  d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\ConnectHERO.h
          Note: including file:   c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll
          Note: including file:  d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\RSA_sign.h
-     1>d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\MyForm.h(687): warning C4101: 'ex' : unreferenced local variable
+     1>d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\MyForm.h(719): warning C4101: 'ex' : unreferenced local variable
+         ConnectHERO.cpp
+         Note: including file: d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\ConnectHERO.h
+         Note: including file:  c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll
+         Generating Code...
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"D:\My projects\C++\Электронная_подпись\RSA\ConsoleApplication1\BigIntegerClassLibrary.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /showIncludes /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
          MyForm.cpp
          Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll
@@ -250,7 +254,7 @@
          Note: including file:      c:\program files (x86)\windows kits\8.1\include\um\ivehandler.h
          Note: including file:   c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll
          Note: including file:  d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\RSA_sign.h
-     1>d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\MyForm.h(687): warning C4101: 'ex' : unreferenced local variable
+     1>d:\my projects\c++\электронная_подпись\rsa\consoleapplication1\MyForm.h(719): warning C4101: 'ex' : unreferenced local variable
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\My projects\C++\Электронная_подпись\RSA\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\ConsoleApplication1.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\My projects\C++\Электронная_подпись\RSA\Debug\ConsoleApplication1.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /CLRUNMANAGEDCODECHECK Debug\main.obj
          Debug\MyForm.obj
@@ -263,4 +267,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.54
+Time Elapsed 00:00:08.79
